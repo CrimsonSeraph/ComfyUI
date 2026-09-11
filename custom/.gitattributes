@@ -1,0 +1,4 @@
+# cmd.exe 需要 CRLF 才能可靠解析 .bat/.cmd（LF-only 时 label/goto 可能失效）。
+# 仓库内存放形式仍为 LF，CRLF 只是检出时的呈现形式。
+*.bat text eol=crlf
+*.cmd text eol=crlf
