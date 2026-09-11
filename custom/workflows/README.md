@@ -16,10 +16,10 @@
 
 ## 已登记工作流
 
-| 文件 | 来源 | 说明 |
-| --- | --- | --- |
-| （本目录暂无文件） | | |
-| ↗ 参考：`custom_nodes\ComfyUI-MiniMax-H3-Turbo\example_workflows\minimax_h3_t2v_turbo.json` | 上游节点自带 | MiniMax-H3 文生视频 + 同步音频，含 Turbo LoRA 直连。引用的模型见 [`../models/README.md`](../models/README.md) |
+| 文件 | 说明 |
+| --- | --- |
+| 'MiniMax H3加速多合一工作流.json' | MiniMax-H3 文生视频 + 同步音频，含 Turbo LoRA 直连 |
+| '生图.json' | 简单的文本生图工作流 |
 
 ## 把上游示例变成自己的特化版本
 
